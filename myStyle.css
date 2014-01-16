@@ -1,0 +1,131 @@
+body	{
+	font-family:"Kristen ITC", "Times New Roman";
+	font-size: 16px;
+	color: #CCC;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	background-image: url(images/background.jpg);
+	background-color: #00C
+	}
+
+a:link	{
+	font-weight: bold;
+	color: #CCC;
+
+	}
+
+a:visited {
+	font-weight: bold;
+	color: #FF0;
+
+	}
+a:hover	{
+
+	color: #CEBDFB;
+
+	}
+a:active {
+	font-style: italic;
+	color: #FF6600;
+	
+	}
+
+h1	{
+	font-family: Broadway, fantasy, "Freestyle Script";
+	color: #FFF;
+	font-size: 45px;
+	margin: 0px;
+	text-align: center;
+	background: #3399FF;
+	border-bottom: thin solid black;
+	border-top: thin solid black;
+	text-indent: 20px;
+	line-height: 1.4;
+	}
+
+img	{
+	}
+
+.cover	{
+	margin-right: 25 px;
+	margin-left: 25 px;
+	margin-top: 25 px;
+	margin-bottom: 25 px;
+	border: 7px solid black;
+	float: right;
+	width: 300 px;
+	}
+
+div	{
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+
+h2	{
+	font-family: Century Schoolbook, Times New Roman, Times, serif;
+	color: #CCC;
+	font-size: 26px;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+h3	{
+	font-family: Ravie, Andy, Rockwell Extra Bold, Bauhaus 93, Comic Sans MS;
+	color: #000000;
+	font-size: 28px;
+	text-align: center;
+	}
+
+p	{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+
+address	{
+	text-align: center;
+	}
+
+ul	{
+	list-style-image: url(images/bullet.gif);
+	vertical-align: middle;
+	}
+
+
+.second_bul {
+	list-style-image: url(pics/pm_bul2.png);
+	}
+
+.nav1	{
+	text-align: center;
+	}
+
+.text {font-family:"Comic Sans MS", "Chaparral Pro", sans-serif;
+    }
+.slider {
+	width:300px;
+	height:526px;
+	overflow:hidden;
+	margin:30px auto;
+	background-image:url(images/joereading.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.slider img {
+	width:300px;
+	height:526px;
+	display:none;
+}
+
+.author {
+	font-weight:bold;
+	color:#09F;
+	text-align:center;
+}
+.genretable {
+	background-color:#03C;
+	font-weight: normal;
+}

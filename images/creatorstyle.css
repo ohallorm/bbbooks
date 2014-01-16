@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body	{
+	font-family:"Kristen ITC", "Times New Roman";
+	font-size: 16px;
+	color: black;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	background-image: url(images/background.jpg);
+	background-color: #000099
+	}
+	
+h1	{
+	font-family: Broadway, fantasy, "Freestyle Script";
+	color: ;
+	font-size: 45px;
+	margin: 0px;
+	text-align: Center;
+	background: #000000;
+	border-bottom: thin solid black;
+	border-top: thin solid black;
+	text-indent: 20px;
+	line-height: 1.4;
+	}
+	
+	h2	{
+	font-family: Broadway, fantasy, "Freestyle Script";
+	color: ;
+	margin: 0px;
+	text-align: center;
+	background: #FFFFFF;
+	border-bottom: thin solid black;
+	border-top: thin solid black;
+	text-indent: 20px;
+	line-height: 1.4;
+	}
+	
+	h3	{
+	font-family: Ravie, Andy, Rockwell Extra Bold, Bauhaus 93, Comic Sans MS;
+	color: #FFFFFF;
+	font-size: 28px;
+	}
+	table {border:hidden;
+	}.TableHead {
+	line-height: 10px;
+}
+.style4 p {
+	line-height: 27px;
+}
+.style4 {
+	line-height: 27px;
+}
