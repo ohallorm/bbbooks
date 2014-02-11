@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link a href="style.css" rel="stylesheet" type="text/css"/>
+
+<style type="text/css">
+<!--
+.slider img {
+	
+	display:none;
+}
+-->
+</style>
+
+<script type="text/javascript" src="javascript/jquery-1.8.2.min.js"> </script>
+<script type="text/javascript" src="javascript/jquery.effects.core.js"> </script>
+<script type="text/javascript" src="javascript/jquery.effects.slide.js"> </script>
+<script type="text/javascript" src="javascript/jquery-ui-1.8.24.custom.min.js"> </script>
+
+<script type="text/javascript">
+
+function Slider() {
+	$(".slider #1").show("slide", {direction:"left"}, 500);
+	$(".slider #1").delay(2500).hide("slide", {direction:"right"}, 500);
+	
+	var sc= $(".slider img").size();
+	var count= 2;
+	
+	setInterval(function(){
+		$(".slider #" + count).show("fade", {direction:""}, 500);
+		$(".slider #" + count).delay(4000).hide("slide", {direction:"right"}, 500);
+		
+		if(count==sc){
+			count=1;
+		}else{
+			count=count+1
+		}
+	}, 5000);
+}
+</script>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script><!-- Put the following javascript before the closing </head> tag. -->
+<script>
+  (function() {
+    var cx = '006162363180911832790:ocoz_cjzsme';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+</script>
+</head>
+<body background="images/bearprint.jpg" onload='Slider();'>
+
+<table width="900" border="1" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="10"><img src="banner.jpg" alt="Banner" width="900" height="180" border="1" /></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td width="180" valign="top"><h2>Genres
+      </h2>
+      <hr />
+    <h3><a href="Books/G_Comic&amp;Manga.html"><img src="genres/ComicManga.jpg" width="175" height="56" alt="Comic and Manga" /></a><a href="Books/G_SciFiFantasy.html"><img src="genres/ActionAdventure.jpg" width="175" height="56" /><img src="genres/FantasySciFi.jpg" width="175" height="56" alt="Fantasy and Sci-Fi" /></a><a href="Books/G_Hist-Fic.html"><img src="genres/HistoricFiction.jpg" width="175" height="56" alt="Historic Fiction" /></a><a href="Books/G_Non-Fic.html"><img src="genres/NonFiction.jpg" width="175" height="56" alt="NonFiction" /></a><a href="Books/G_Romance.html"><img src="genres/Romance.jpg" width="175" height="56" alt="Romance" /></a><a href="Books/G_Sports.html"><img src="genres/Sports.jpg" width="175" height="56" alt="Sports" /></a><a href="Books/G_Drama&amp;Comedy.html"><img src="genres/DramaComedy.jpg" width="175" height="56" alt="Drama and Comedy" /></a><a href="Books/G_Myst&amp;Thrill.html"><img src="genres/ThrillerMystery.jpg" width="175" height="56" alt="Thriller and Mystery" /></a></h3></td>
+   
+    <td width="386" align="center"><div class="slider" align="center">
+    <img id="1" src="sheyenne.JPG" border="0" align="top"   alt="Student Reading"  />
+    <img id="2" src="highheat.jpg"  height="281" border="0" align="top" alt="book"  />
+    <img id="3" src="mitchRead.JPG" border="0" align="center"   alt="Student Reading" />
+  	<img src="lincolnlawyer.jpg" alt="Book" height="281" border="0" align="center" id="4" />
+    <img id="5" src="ashlinread.jpg" alt="Student Reading" height="281" border="0" align="center"  />
+    <img id="6" src="birdmanread.jpg" alt="Student Reading" height="281" border="0" align="center"  />
+    <img id="7" src="giagos&schinlerread.jpg" alt="Student Reading" height="281" border="0" align="center" />
+    
+    
+    </td>
+   
+    <td width="332" align="center" valign="top"><h2>John Homan's Book of the Week</h2>
+    <p><img src="highheat.jpg" alt="High Heat" width="100" height="140" align="middle" /></p></td>
+  
+ </tr>
+ </table>
+</body>
+</html>
+</div>
