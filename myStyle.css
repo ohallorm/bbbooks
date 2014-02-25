@@ -71,7 +71,7 @@ h2	{
 
 h3	{
 	font-family: Georgia, "Times New Roman", Times, serif ;
-	color: #000000;
+	color: #00F;
 	font-size: 28px;
 	text-align: center;
 	}
@@ -124,9 +124,9 @@ ul	{
 	color:# C60;
 	text-align:center;
 }
-.genretable {
-	background-color:#03C;
-	font-weight: normal;
+.ar {
+	text-align:center
+	font-weight: bold;
 }
 .table	{
 
@@ -145,3 +145,5 @@ ul	{
 		background:#999;
 }
 
+.ar { 
+	bold
