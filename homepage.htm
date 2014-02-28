@@ -3,7 +3,8 @@
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Home Page</title>
+ <link rel="icon" type="image/icon" href="images/Favicons/bfavicon.png">
 <link a href="style.css" rel="stylesheet" type="text/css"/>
 
 <style type="text/css">
@@ -30,8 +31,8 @@ function Slider() {
 	var count= 2;
 	
 	setInterval(function(){
-		$(".slider #" + count).show("fade", {direction:""}, 500);
-		$(".slider #" + count).delay(4000).hide("slide", {direction:"right"}, 500);
+		$(".slider #" + count).show("slide", {direction:"left"}, 500);
+		$(".slider #" + count).delay(2500).hide("slide", {direction:"right"}, 500);
 		
 		if(count==sc){
 			count=1;
@@ -65,33 +66,73 @@ function MM_preloadImages() { //v3.0
 </head>
 <body background="images/bearprint.jpg" onload='Slider();'>
 
-<table width="900" border="1" align="center" cellpadding="0" cellspacing="0">
+<table width="907" border="1" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td colspan="10"><img src="banner.jpg" alt="Banner" width="900" height="180" border="1" /></td>
   </tr>
   <tr bgcolor="#FFFFFF">
-    <td width="180" valign="top"><h2>Genres
+    <td width="181" height="620" valign="top"><h2>Genres
       </h2>
       <hr />
     <h3><a href="Books/G_Comic&amp;Manga.html"><img src="genres/ComicManga.jpg" width="175" height="56" alt="Comic and Manga" /></a><a href="Books/G_SciFiFantasy.html"><img src="genres/ActionAdventure.jpg" width="175" height="56" /><img src="genres/FantasySciFi.jpg" width="175" height="56" alt="Fantasy and Sci-Fi" /></a><a href="Books/G_Hist-Fic.html"><img src="genres/HistoricFiction.jpg" width="175" height="56" alt="Historic Fiction" /></a><a href="Books/G_Non-Fic.html"><img src="genres/NonFiction.jpg" width="175" height="56" alt="NonFiction" /></a><a href="Books/G_Romance.html"><img src="genres/Romance.jpg" width="175" height="56" alt="Romance" /></a><a href="Books/G_Sports.html"><img src="genres/Sports.jpg" width="175" height="56" alt="Sports" /></a><a href="Books/G_Drama&amp;Comedy.html"><img src="genres/DramaComedy.jpg" width="175" height="56" alt="Drama and Comedy" /></a><a href="Books/G_Myst&amp;Thrill.html"><img src="genres/ThrillerMystery.jpg" width="175" height="56" alt="Thriller and Mystery" /></a></h3></td>
    
-    <td width="386" align="center"><div class="slider" align="center">
-    <img id="1" src="sheyenne.JPG" border="0" align="top"   alt="Student Reading"  />
-    <img id="2" src="highheat.jpg"  height="281" border="0" align="top" alt="book"  />
-    <img id="3" src="mitchRead.JPG" border="0" align="center"   alt="Student Reading" />
-  	<img src="lincolnlawyer.jpg" alt="Book" height="281" border="0" align="center" id="4" />
-    <img id="5" src="ashlinread.jpg" alt="Student Reading" height="281" border="0" align="center"  />
-    <img id="6" src="birdmanread.jpg" alt="Student Reading" height="281" border="0" align="center"  />
-    <img id="7" src="giagos&schinlerread.jpg" alt="Student Reading" height="281" border="0" align="center" />
-    
-    
-    </td>
+    <td width="395" align="center" bgcolor="#FFFFFF">
+    <table width="380" border="0" cellspacing="4" cellpadding="2" style="background-image:url(images/students%20reading/paw.jpg);background-repeat: repeat-none; background-position:center;">
+        <tr align="center">
+          <td height="349"><div class="slider" align="top">
+            <img id="1" src="images/students reading/sheyenne.JPG"             border="0" align="top"  alt="Student Reading"  /> 
+            <img id="2" src="images/students reading/highheat.jpg"             border="0" align="top"  alt="book"  /> 
+            <img id="3" src="images/students reading/mitchRead.JPG"            border="0" align="top"  alt="Student Reading" /> 
+            <img id="4" src="images/students reading/lincolnlawyer.jpg"        border="0" align="top"  alt="Book" /> 
+            <img id="5" src="images/students reading/ashlinread.jpg"           border="0" align="top"  alt="Student Reading"  /> 
+            <img id="6" src="images/students reading/theconfession.jpg"        border="0" align="top"  alt="Book" /> 
+            <img id="7" src="images/students reading/birdmanread.jpg"          border="0" align="top"  alt="Student Reading" />
+         	<img id="8" src="images/students reading/fallenangels.jpg"         border="0" align="top"  alt="Book" />
+            <img id="9" src="images/students reading/giagos&schinlerread.jpg"  border="0" align="top"  alt="Students Reading" />
+          </div>
+          </td>
+        </tr>
    
-    <td width="332" align="center" valign="top"><h2>John Homan's Book of the Week</h2>
-    <p><img src="highheat.jpg" alt="High Heat" width="100" height="140" align="middle" /></p></td>
-  
- </tr>
- </table>
+      </table>
+    <table width="380" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="26" align="center" valign="top"><h2>Space Master's Book of the Week</h2></td>
+        </tr>
+        <tr>
+          <td height="153" align="center" valign="top"><img src="images/students reading/associate.jpg" width="99" height="150" alt="The Associate" /></td>
+        </tr>
+      </table>
+    <table width="380" border="0" cellspacing="0" cellpadding="0" align="right">
+      <tr align"right">
+         <td align="right">
+            <form name="form1" method="get" action="SearchResults.htm">
+        <input type="text" name="q" id="q" >
+        <input type="submit" name="SearchButton" id="SearchButton" value="Search" />
+      </form>
+      </td>
+      </tr>
+    </table>
+    
+      
+   
+    <td width="323" align="center" valign="top"><h2>Books to Movies
+   </h2>
+     
+   <p><strong>The Monuments Men</strong>: Robert M. Edsel </p>
+   <p><strong>Winter's Tale</strong>: Mark Helprin</p>
+   <p><strong>Divergent</strong>: Veronica Roth</p>
+   <p><strong>The Maze Runner</strong>: James Dashner</p>
+   <p><strong>Mockingjay</strong>: Suzanne Collins</p>
+   <p><strong>The Hobbit</strong>: J.R.R Tolkien</p>
+   <p><strong>The last Apprentice-Revenge of the Witch: </strong>Joseph Delaney</p>
+<p><strong>Fallen</strong>: Lauren Kate</p>
+   <p><strong>Hush, Hush</strong>: Becca Fitzpatrick</p>
+   <p><strong>Vampire Academy</strong>: Richelle Mead</p>
+   <p><strong>If  I Stay</strong>: Gayle Forman</p>
+   <p><strong>The Fault in our Stars</strong>: John Green</p>
+   <p>&nbsp;</p>
+   <p><a href="DesignersPage.htm"><img src="images/designerpage.jpg" width="175" height="56" alt="Designer Page" /></a></p>
+    </table>
 </body>
 </html>
 </div>
