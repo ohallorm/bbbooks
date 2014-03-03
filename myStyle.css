@@ -75,6 +75,15 @@ h3	{
 	font-size: 28px;
 	text-align: center;
 	}
+	
+h4	{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: # 00C;
+	font-size: 26px;
+	text-align: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
 
 p	{
 	margin-left: 20px;
@@ -146,4 +155,5 @@ ul	{
 }
 
 .ar { 
-	bold
+	font-weight:bold;
+)	
