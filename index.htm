@@ -1,30 +1,21 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-  <title>Bear Backed Books - Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bear Backed Books</title>
+ <link rel="icon" type="image/icon" href="images/favicon.png" />
+<link a href="style.css" rel="stylesheet" type="text/css"/>
 
-  <link rel="icon" type="image/icon" href="favicon.ico">
-
-
-  <meta name="google-site-verification" content="7aad6uP7y27VC7-M17hs5jznq0KF0wnF7niazY80b-Q" />
-
-  <meta name="Keywords" content="Bear Backed Books, St Marys High School, books, recommendation, reading" />
-
-<link href="myStyle.css" rel="stylesheet" type="text/css" />
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <style type="text/css">
 <!--
-.style1 {color: #FFFFFF}
-body {
-	background-color: #1544BF;
-	background-image: url(images/bookBG.jpg);
-}
-body,td,th {
-	color: #D6D6D6;
+.slider img {
+	
+	display:none;
 }
 -->
 </style>
+
 <script type="text/javascript" src="javascript/jquery-1.8.2.min.js"> </script>
 <script type="text/javascript" src="javascript/jquery.effects.core.js"> </script>
 <script type="text/javascript" src="javascript/jquery.effects.slide.js"> </script>
@@ -41,7 +32,7 @@ function Slider() {
 	
 	setInterval(function(){
 		$(".slider #" + count).show("slide", {direction:"left"}, 500);
-		$(".slider #" + count).delay(4000).hide("slide", {direction:"right"}, 500);
+		$(".slider #" + count).delay(2500).hide("slide", {direction:"right"}, 500);
 		
 		if(count==sc){
 			count=1;
@@ -70,92 +61,77 @@ function MM_preloadImages() { //v3.0
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-      
+
+</script>
 </head>
-<body onload='Slider();'>
-<table border="0"  width="100%" height="110" cellspacing="0" cellpadding="0">
-<td bgcolor= >&nbsp;  </td>
-<td width="592" bgcolor="#1544BF"><img src="images/newbanner.jpg" alt="New Background" width="925" height="150"></td>
-<td bgcolor= >&nbsp;  </td>
-</tr></table>
-<table width="925" border="2" align="center" cellpadding="10">
-  <tr align="left" valign="top">
-    <td width="234" height="548" bgcolor="#1544BF"><table width="232" border="2" cellpadding="5" cellspacing="10">
-      <tr>
-        <td width="196" align="left"><a href="G_Action&Adventure.html">Action &amp; Adventure</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Drama&Comedy.html">Drama &amp; Comedy</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_ScifiFantasy.html">Fantasy &amp; Sci-fi</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Hist-Fic.html">Historic Fiction</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Non-Fic.html">Non-fiction</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Romance.html">Romance</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Sports.html">Sports</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Myst&Thrill.html">Thriller and Mystery</a></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="G_Comic&Manga.html">Comic and Manga</a></td>
-      </tr>
-    </table>
-    <p>&nbsp;</p></td>
-    <td width="446" align="center" valign="top" bgcolor="#1544BF"> <div class="slider">
+<body background="images/bearprint.jpg" onload='Slider();'>
+
+<table width="907" border="1" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="10"><img src="banner.jpg" alt="Banner" width="900" height="180" border="1" /></td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td width="181" height="620" valign="top"><h2>Genres
+      </h2>
+      <hr />
+    <h3><a href="G_Comic&amp;Manga.html"><img src="genres/ComicManga.jpg" width="175" height="56" alt="Comic and Manga" /></a><a href="G_SciFiFantasy.html"><img src="genres/ActionAdventure.jpg" width="175" height="56" /><img src="genres/FantasySciFi.jpg" width="175" height="56" alt="Fantasy and Sci-Fi" /></a><a href="G_Hist-Fic.html"><img src="genres/HistoricFiction.jpg" width="175" height="56" alt="Historic Fiction" /></a><a href="G_Non-Fic.html"><img src="genres/NonFiction.jpg" width="175" height="56" alt="NonFiction" /></a><a href="G_Romance.html"><img src="genres/Romance.jpg" width="175" height="56" alt="Romance" /></a><a href="G_Sports.html"><img src="genres/Sports.jpg" width="175" height="56" alt="Sports" /></a><a href="G_Drama&amp;Comedy.html"><img src="genres/DramaComedy.jpg" width="175" height="56" alt="Drama and Comedy" /></a><a href="G_Myst&amp;Thrill.html"><img src="genres/ThrillerMystery.jpg" width="175" height="56" alt="Thriller and Mystery" /></a></h3></td>
    
-    <a href="amongthehidden.htm"><img id="1" src="images/amongthehidden.jpg" border="0" alt="Among the Hidden" /></a>
-    <a href="ArkAngel.htm"><img id="2" src="images/ArkAngel.jpg" border="0" alt="Ark Angel" /></a>
-    <a href="atimetokill.htm"><img id="3" src="images/atimetokill.jpg" border="0" alt="A Time to Kill" /></a>
-    <a href="awalktoremember.htm"><img id="4" src="images/awalktoremember.gif" border="0" alt="A Walk to Remember" /></a>
-    <a href="bagofbones.htm"><img id="5" src="images/bagofbones.jpg" border="0" alt="Bag of Bones" /></a>
-    <a href="Change_of_hearts.htm"><img id="6" src="images/changeofheart.jpg" border="0" alt="Change of Heart" /></a>
-    <a href="chasing.htm"><img id="7" src="images/chasing.jpg" border="0" alt="Chasing" /></a>
-     
-   </div> </td>
-    <td width="167" bgcolor="#1544BF">
-    
-        <form name="form1" method="get" action="SearchResults.htm">
+    <td width="395" align="center" bgcolor="#FFFFFF">
+    <table width="380" border="0" cellspacing="4" cellpadding="2" style="background-image:url(images/students%20reading/paw.jpg);background-repeat: repeat-none; background-position:center;">
+        <tr align="center">
+          <td height="349"><div class="slider" align="top">
+            <img id="1" src="images/students reading/sheyenne.JPG"             border="0" align="top"  alt="Student Reading"  /> 
+            <img id="2" src="images/students reading/highheat.jpg"             border="0" align="top"  alt="book"  /> 
+            <img id="3" src="images/students reading/mitchRead.JPG"            border="0" align="top"  alt="Student Reading" /> 
+            <img id="4" src="images/students reading/lincolnlawyer.jpg"        border="0" align="top"  alt="Book" /> 
+            <img id="5" src="images/students reading/ashlinread.jpg"           border="0" align="top"  alt="Student Reading"  /> 
+            <img id="6" src="images/students reading/theconfession.jpg"        border="0" align="top"  alt="Book" /> 
+            <img id="7" src="images/students reading/birdmanread.jpg"          border="0" align="top"  alt="Student Reading" />
+         	<img id="8" src="images/students reading/fallenangels.jpg"         border="0" align="top"  alt="Book" />
+            <img id="9" src="images/students reading/giagos&schinlerread.jpg"  border="0" align="top"  alt="Students Reading" />
+          </div>
+          </td>
+        </tr>
+   
+      </table>
+    <table width="380" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="26" align="center" valign="top"><h2>Space Master's Book of the Week</h2></td>
+        </tr>
+        <tr>
+          <td height="153" align="center" valign="top"><img src="images/students reading/associate.jpg" width="99" height="150" alt="The Associate" /></td>
+        </tr>
+      </table>
+    <table width="380" border="0" cellspacing="0" cellpadding="0" align="right">
+      <tr align"right">
+         <td align="right">
+            <form name="form1" method="get" action="SearchResults.htm">
         <input type="text" name="q" id="q" >
         <input type="submit" name="SearchButton" id="SearchButton" value="Search" />
       </form>
+      </td>
+      </tr>
+    </table>
+    
       
-      <p><span class="text">Welcome to Bear Backed Books, a site created by the SMHS <a href="creatorspage.html">Web Page Design Class</a>.  Here you will find book recommendations from St. Marys students and staff.  Click on the icons below to browse different genres, or use the navigation bar up above. We can also give you a
-          <script type = "text/javascript">
- <!--
- var books = ["thehorse.htm", "fallenangels.htm", "fallofreach.htm", "holes.htm", "crocodiletears.htm", "prey.htm", "timeline.htm", "tp.htm", "xmen.htm", "fridaynightLights.htm", "FootballGenius.htm", "The-Ruins-of-Gorlan-John-Flanagan.htm", "BridgetoTerabithia.htm", "Mazerunner.htm", "Change_of_hearts.htm", "Tebow.htm", "Rules_of_Attraction.htm", "Perfect_chemistry.htm", "deathcure.htm", "Abrideinthebargain.htm", "When-Lightning-Strikes-Meg-Cabot.htm", "Perfect.htm", "ArkAngel.htm", "Wolfbrother.htm", "FootballHero.htm", "Carter.htm", "allunquietthings.htm", "bagofbones.htm", "inheritance.htm", "Gregor.htm", "doppelganger.htm", "Crackback.htm"];
-
- document.write ("<a href= \"" + books[Math.floor( Math.random() * 32)] + "\">");
-// -->
-          </script>
-    random book</a> recommendation.</span><img src="images/ar.gif" width="81" height="54"></p></td>
-  </tr>
-</table>
-<address>
-</address>
-<address>
-</address>
-<address> 
-Page modified on November 29, 2012.
-</address>
-<center><!-- hitwebcounter Code START -->
-<a href="http://www.hitwebcounter.com/internetcountercontact.php" target="_blank">
-<img src="http://hitwebcounter.com/counter/counter.php?page=373458&style=0036&nbdigits=6&type=page&initCount=4315" title="Counter" Alt="Counter"   border="0" >
-</a>
-<br>
-<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com/" title="Site Counter" 
-target="_blank" style="font-family: Arial, Geneva , Helvetica, sans-serif; 
-font-size: 14px; color: black; text-decoration: underline ;">
-<strong>Site Counter</strong></a></center>   
-  
-</address>
+   
+    <td width="323" align="center" valign="top"><h2>Books to Movies
+   
+   </h2>
+      <p><strong>Winter's Tale</strong>: Mark Helprin</p>
+   <p><strong>Divergent</strong>: Veronica Roth</p>
+   <p><strong><a href="Mazerunner.htm">The Maze Runner</a></strong><a href="mazerunnerbearbackedbooks.html">: </a>James Dashner</p>
+   <p><strong><a href="thehungergames.html">Mockingjay</a></strong><a href="thehungergames.html">:</a> Suzanne Collins</p>
+   <p><strong><a href="thehobbit.htm">The Hobbit</a></strong><a href="thehobbit.htm">:</a> J.R.R Tolkien</p>
+   <p><strong>The last Apprentice-Revenge of the Witch: </strong>Joseph Delaney</p>
+<p><strong><a href="Fallen.htm">Fallen</a></strong>: Lauren Kate</p>
+   <p><strong>Hush, Hush</strong>: Becca Fitzpatrick</p>
+   <p><strong>Vampire Academy</strong>: Richelle Mead</p>
+   <p><strong>If  I Stay</strong>: Gayle Forman</p>
+   <p><strong>The Fault in our Stars</strong>: John Green</p>
+   <p>&nbsp;</p>
+   <p><a href="DesignersPage.htm"><img src="images/designerpage.jpg" width="175" height="56" alt="Designer Page" /></a></p>
+    </table>
 </body>
 </html>
+</div>
