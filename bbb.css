@@ -1,3 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
 body	{
 	font-family:"Kristen ITC", "Times New Roman";
 	font-size: 16px;
@@ -111,17 +113,9 @@ ul	{
 	text-align: center;
 	}
 
-.text {
-	font-family: "Kristen ITC", "Times New Roman";
+.text {font-family: Arial, Helvetica, sans-serif;
     }
 
-
-
-.slider img {
-	width:300px;
-	height:526px;
-	display:none;
-}
 
 .author {
 	font-weight:bold;
@@ -152,3 +146,4 @@ ul	{
 .ar { 
 	font-weight:bold;
 )	
+
